@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    background-color: blue;
+    color: aqua;
+}
+li:nth-child(even){
+    color: brown;
+}
+li:hover {
+    color: yellow;
+}
+input[type=checkbox]:checked +label {
+    text-decoration: line-through;
+    color: #9B96AC;
+}
+*{transition: all .1s ease-in;}
