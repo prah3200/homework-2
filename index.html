@@ -5,20 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/style.css" type="text/css">
-</head>
-    <header style="background-image: url('/homework-2/src/bgtotal.png');">
-        <h1 class="header1">CSS Dinner Shoping List</h1>
-        <h3 class="header2">Let`s go to the mall</h3>        
-    </header>
-<body style="background-image: url('/homework-2/src/BG.png')">
-    <ul>
-        <li><input type="checkbox" id="check1"><label for="check1">A lot of pickles</label></li>
-        <li><input type="checkbox" id="check2"><label for="check2">10 apples</label></li>
-        <li><input type="checkbox" id="check3"><label for="check3">20 oranges</label> </li>
-        <li><input type="checkbox" id="check4"><label for="check4">13 plates</label> </li>
-        <li><input type="checkbox" id="check5"><label for="check5">15 bentos</label> </li>
-        <li><input type="checkbox" id="check6"><label for="check6">1 bottle of Sake ^_^</label></li>
-    </ul>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>    
+<body>
+    <main class="main">
+        <div class="form-holder">
+            <div class="form-title-holder">
+                <h2 class="form-title">CSS Dinner Shopping List</h2>
+                <span class="form-pseudo-title">Let’s go to the mall!</span>
+            </div>
+            <form action="#" class="form-shopping-list">
+                    <ul class="shoping-list">
+                        <li class="shoping-item">
+                            <input id="pickles" type="checkbox" class="input-checkbox">
+                            <div class="pseudo-checkbox">
+                                <label for="pickles">A lot of pickles<span> (for the next lessons about CSS)</span></label>
+                            </div>
+                        </li>
+                        <li class="shoping-item">
+                            <input id="apples" type="checkbox" class="input-checkbox">
+                            <div class="pseudo-checkbox">
+                                <label for="apples">10 apples<span> (for more CSS manipulations)</span></label>
+                            </div>
+                        </li>
+                        <li class="shoping-item">
+                            <input id="oranges" type="checkbox" class="input-checkbox">
+                            <div class="pseudo-checkbox">
+                                <label for="oranges">20 oranges<span> (because they are awesome)</span></label>
+                            </div>
+                        </li>
+                        <li class="shoping-item">
+                            <input id="plates" type="checkbox" class="input-checkbox">
+                            <div class="pseudo-checkbox">
+                                <label for="plates">13 plates<span> (hm... they always dissapear)</span></label>
+                            </div>
+                        </li>
+                        <li class="shoping-item">
+                            <input id="bentos" type="checkbox" class="input-checkbox">
+                            <div class="pseudo-checkbox">
+                                <label for="bentos">15 bentos</label>
+                            </div>
+                        </li>
+                        <li class="shoping-item">
+                            <input id="sake" type="checkbox" class="input-checkbox">
+                            <div class="pseudo-checkbox">
+                                <label for="sake">1 bottle of Sake<span> (for my friends)</span></label>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="btn" type="submit">Bon appetit :)</button>
+                </form>            
+        </div>
+    </main>
 </body>
 </html>
